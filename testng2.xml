@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="mysuiteTesting">
+	<listeners>
+		<listener class-name="com.salesforce.automation.utilities.MyListenerUtility" />
+	</listeners>
+	<test name="TestAccnts">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.salesforce.automation.AutomationScripts_Accnts">
+				<methods>
+					<exclude name="TC10a_CreateAccount" />
+					<exclude name="TC13_MergeAccounts" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="TestContacts">
+		<classes>
+			<class name="com.salesforce.automation.AutomationScripts_Contacts" />
+		</classes>
+	</test>
+
+	<test name="TestLeads">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.salesforce.automation.AutomationScripts_Leads" />
+		</classes>
+	</test>
+
+	<test name="TestLogin">
+		<classes>
+			<class name="com.salesforce.automation.AutomationScripts_LogIn" />
+		</classes>
+	</test>
+
+	<test name="TestMenubar">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.salesforce.automation.AutomationScripts_Menubar" />
+		</classes>
+	</test>
+
+	<test name="TestOpty">
+		<classes>
+			<class name="com.salesforce.automation.AutomationScripts_Opty" />
+		</classes>
+	</test>
+
+	<test name="TestRndm">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.salesforce.automation.AutomationScripts_Random" />
+		</classes>
+	</test>
+</suite> 

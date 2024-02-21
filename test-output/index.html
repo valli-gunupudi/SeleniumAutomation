@@ -1,0 +1,1308 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-mysuiteTesting" class="navigator-link">
+              <span class="suite-name border-failed">mysuiteTesting</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-mysuiteTesting" class="navigator-link ">
+                    <span>C:\Users\gnage\eclipse-workspace\SeleniumAutomation\testng2.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-mysuiteTesting" class="navigator-link ">
+                    <span class="test-stats">7 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-mysuiteTesting" class="navigator-link ">
+                    <span>3 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-mysuiteTesting" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-mysuiteTesting" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-mysuiteTesting" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-mysuiteTesting" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">36 methods, 1 failed,   35 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-mysuiteTesting" class="hide-methods failed suite-mysuiteTesting"> (hide)</a> <!-- hide-methods failed suite-mysuiteTesting -->
+                      <a href="#" panel-name="suite-mysuiteTesting" class="show-methods failed suite-mysuiteTesting"> (show)</a> <!-- show-methods failed suite-mysuiteTesting -->
+                    </span>
+                    <div class="method-list-content failed suite-mysuiteTesting">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-mysuiteTesting" title="com.salesforce.automation.AutomationScripts_LogIn" class="method navigator-link" hash-for-method="loginSalesforce2">loginSalesforce2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-mysuiteTesting -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-mysuiteTesting" class="hide-methods passed suite-mysuiteTesting"> (hide)</a> <!-- hide-methods passed suite-mysuiteTesting -->
+                      <a href="#" panel-name="suite-mysuiteTesting" class="show-methods passed suite-mysuiteTesting"> (show)</a> <!-- show-methods passed suite-mysuiteTesting -->
+                    </span>
+                    <div class="method-list-content passed suite-mysuiteTesting">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-mysuiteTesting" title="com.salesforce.automation.AutomationScripts_Random" class="method navigator-link" hash-for-method="Random_TC33">Random_TC33</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-mysuiteTesting" title="com.salesforce.automation.AutomationScripts_Random" class="method navigator-link" hash-for-method="Random_TC34">Random_TC34</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-mysuiteTesting" title="com.salesforce.automation.AutomationScripts_Random" class="method navigator-link" hash-for-method="Random_TC35">Random_TC35</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-mysuiteTesting" title="com.salesforce.automation.AutomationScripts_Random" class="method navigator-link" hash-for-method="Random_TC36">Random_TC36</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-mysuiteTesting" title="com.salesforce.automation.AutomationScripts_Random" class="method navigator-link" hash-for-method="Random_TC37">Random_TC37</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-mysuiteTesting" title="com.salesforce.automation.AutomationScripts_Accnts" class="method navigator-link" hash-for-method="TC10b_CreateAccount">TC10b_CreateAccount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-mysuiteTesting" title="com.salesforce.automation.AutomationScripts_Accnts" class="method navigator-link" hash-for-method="TC11_Createnewview">TC11_Createnewview</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-mysuiteTesting" title="com.salesforce.automation.AutomationScripts_Accnts" class="method navigator-link" hash-for-method="TC12_Editview">TC12_Editview</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-mysuiteTesting" title="com.salesforce.automation.AutomationScripts_Leads" class="method navigator-link" hash-for-method="TC20_leadsTab">TC20_leadsTab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-mysuiteTesting" title="com.salesforce.automation.AutomationScripts_Leads" class="method navigator-link" hash-for-method="TC21_leadsSelectView">TC21_leadsSelectView</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-mysuiteTesting" title="com.salesforce.automation.AutomationScripts_Leads" class="method navigator-link" hash-for-method="TC22_defaultView">TC22_defaultView</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-mysuiteTesting" title="com.salesforce.automation.AutomationScripts_Leads" class="method navigator-link" hash-for-method="TC23">TC23</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-mysuiteTesting" title="com.salesforce.automation.AutomationScripts_Leads" class="method navigator-link" hash-for-method="TC24">TC24</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-mysuiteTesting" title="com.salesforce.automation.AutomationScripts_Contacts" class="method navigator-link" hash-for-method="contacts_TC25">contacts_TC25</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-mysuiteTesting" title="com.salesforce.automation.AutomationScripts_Contacts" class="method navigator-link" hash-for-method="contacts_TC26">contacts_TC26</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-mysuiteTesting" title="com.salesforce.automation.AutomationScripts_Contacts" class="method navigator-link" hash-for-method="contacts_TC27">contacts_TC27</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-mysuiteTesting" title="com.salesforce.automation.AutomationScripts_Contacts" class="method navigator-link" hash-for-method="contacts_TC28">contacts_TC28</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-mysuiteTesting" title="com.salesforce.automation.AutomationScripts_Contacts" class="method navigator-link" hash-for-method="contacts_TC29">contacts_TC29</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-mysuiteTesting" title="com.salesforce.automation.AutomationScripts_Contacts" class="method navigator-link" hash-for-method="contacts_TC30">contacts_TC30</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-mysuiteTesting" title="com.salesforce.automation.AutomationScripts_Contacts" class="method navigator-link" hash-for-method="contacts_TC31">contacts_TC31</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-mysuiteTesting" title="com.salesforce.automation.AutomationScripts_Contacts" class="method navigator-link" hash-for-method="contacts_TC32">contacts_TC32</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-mysuiteTesting" title="com.salesforce.automation.AutomationScripts_Opty" class="method navigator-link" hash-for-method="createNewOpty_TC16">createNewOpty_TC16</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-mysuiteTesting" title="com.salesforce.automation.AutomationScripts_LogIn" class="method navigator-link" hash-for-method="forgotPassword4a">forgotPassword4a</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-mysuiteTesting" title="com.salesforce.automation.AutomationScripts_LogIn" class="method navigator-link" hash-for-method="forgotPassword4b">forgotPassword4b</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-mysuiteTesting" title="com.salesforce.automation.AutomationScripts_LogIn" class="method navigator-link" hash-for-method="loginErrorMessage1(chrome)">loginErrorMessage1(chrome)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-mysuiteTesting" title="com.salesforce.automation.AutomationScripts_Menubar" class="method navigator-link" hash-for-method="menuDropDown_TC05">menuDropDown_TC05</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-mysuiteTesting" title="com.salesforce.automation.AutomationScripts_Menubar" class="method navigator-link" hash-for-method="menuDropDown_TC06">menuDropDown_TC06</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-mysuiteTesting" title="com.salesforce.automation.AutomationScripts_Menubar" class="method navigator-link" hash-for-method="menuDropDown_TC08">menuDropDown_TC08</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-mysuiteTesting" title="com.salesforce.automation.AutomationScripts_Menubar" class="method navigator-link" hash-for-method="menuDropDown_TC09">menuDropDown_TC09</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-mysuiteTesting" title="com.salesforce.automation.AutomationScripts_Opty" class="method navigator-link" hash-for-method="optyDropDown_TC15">optyDropDown_TC15</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-mysuiteTesting" title="com.salesforce.automation.AutomationScripts_Opty" class="method navigator-link" hash-for-method="optyPipelineReport_TC17">optyPipelineReport_TC17</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-mysuiteTesting" title="com.salesforce.automation.AutomationScripts_Opty" class="method navigator-link" hash-for-method="qtrlySummRprt_TC19">qtrlySummRprt_TC19</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-mysuiteTesting" title="com.salesforce.automation.AutomationScripts_LogIn" class="method navigator-link" hash-for-method="rememberMe3">rememberMe3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-mysuiteTesting" title="com.salesforce.automation.AutomationScripts_Opty" class="method navigator-link" hash-for-method="selectDateDynmc">selectDateDynmc</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-mysuiteTesting" title="com.salesforce.automation.AutomationScripts_Opty" class="method navigator-link" hash-for-method="stuckOptyReport_TC18">stuckOptyReport_TC18</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-mysuiteTesting -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-mysuiteTesting" class="panel mysuiteTesting">
+          <div class="suite-mysuiteTesting-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.salesforce.automation.AutomationScripts_LogIn</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginSalesforce2">
+                  </a> <!-- loginSalesforce2 -->
+                  <span class="method-name">loginSalesforce2</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#userNavLabel&quot;}
+  (Session info: chrome=121.0.6167.161)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-P90V53U&apos;, ip: &apos;192.168.68.100&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.4&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.184 (057a8ae7deb..., userDataDir: C:\Users\gnage\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52040}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c50b1d932c9f12700060a571fd4fa31d
+*** Element info: {Using=id, value=userNavLabel}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.salesforce.automation.AutomationScripts_LogIn.loginSalesforce2(AutomationScripts_LogIn.java:88)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-mysuiteTesting-class-failed -->
+          <div class="suite-mysuiteTesting-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.salesforce.automation.AutomationScripts_LogIn</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="forgotPassword4a">
+                  </a> <!-- forgotPassword4a -->
+                  <span class="method-name">forgotPassword4a</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="forgotPassword4b">
+                  </a> <!-- forgotPassword4b -->
+                  <span class="method-name">forgotPassword4b</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginErrorMessage1(chrome)">
+                  </a> <!-- loginErrorMessage1(chrome) -->
+                  <span class="method-name">loginErrorMessage1</span>
+                  <span class="parameters">(chrome)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="rememberMe3">
+                  </a> <!-- rememberMe3 -->
+                  <span class="method-name">rememberMe3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-mysuiteTesting-class-passed -->
+          <div class="suite-mysuiteTesting-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.salesforce.automation.AutomationScripts_Random</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Random_TC33">
+                  </a> <!-- Random_TC33 -->
+                  <span class="method-name">Random_TC33</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Random_TC34">
+                  </a> <!-- Random_TC34 -->
+                  <span class="method-name">Random_TC34</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Random_TC35">
+                  </a> <!-- Random_TC35 -->
+                  <span class="method-name">Random_TC35</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Random_TC36">
+                  </a> <!-- Random_TC36 -->
+                  <span class="method-name">Random_TC36</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Random_TC37">
+                  </a> <!-- Random_TC37 -->
+                  <span class="method-name">Random_TC37</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-mysuiteTesting-class-passed -->
+          <div class="suite-mysuiteTesting-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.salesforce.automation.AutomationScripts_Menubar</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="menuDropDown_TC05">
+                  </a> <!-- menuDropDown_TC05 -->
+                  <span class="method-name">menuDropDown_TC05</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="menuDropDown_TC06">
+                  </a> <!-- menuDropDown_TC06 -->
+                  <span class="method-name">menuDropDown_TC06</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="menuDropDown_TC08">
+                  </a> <!-- menuDropDown_TC08 -->
+                  <span class="method-name">menuDropDown_TC08</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="menuDropDown_TC09">
+                  </a> <!-- menuDropDown_TC09 -->
+                  <span class="method-name">menuDropDown_TC09</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-mysuiteTesting-class-passed -->
+          <div class="suite-mysuiteTesting-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.salesforce.automation.AutomationScripts_Leads</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC20_leadsTab">
+                  </a> <!-- TC20_leadsTab -->
+                  <span class="method-name">TC20_leadsTab</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC21_leadsSelectView">
+                  </a> <!-- TC21_leadsSelectView -->
+                  <span class="method-name">TC21_leadsSelectView</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC22_defaultView">
+                  </a> <!-- TC22_defaultView -->
+                  <span class="method-name">TC22_defaultView</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC23">
+                  </a> <!-- TC23 -->
+                  <span class="method-name">TC23</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC24">
+                  </a> <!-- TC24 -->
+                  <span class="method-name">TC24</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-mysuiteTesting-class-passed -->
+          <div class="suite-mysuiteTesting-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.salesforce.automation.AutomationScripts_Contacts</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="contacts_TC25">
+                  </a> <!-- contacts_TC25 -->
+                  <span class="method-name">contacts_TC25</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="contacts_TC26">
+                  </a> <!-- contacts_TC26 -->
+                  <span class="method-name">contacts_TC26</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="contacts_TC27">
+                  </a> <!-- contacts_TC27 -->
+                  <span class="method-name">contacts_TC27</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="contacts_TC28">
+                  </a> <!-- contacts_TC28 -->
+                  <span class="method-name">contacts_TC28</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="contacts_TC29">
+                  </a> <!-- contacts_TC29 -->
+                  <span class="method-name">contacts_TC29</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="contacts_TC30">
+                  </a> <!-- contacts_TC30 -->
+                  <span class="method-name">contacts_TC30</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="contacts_TC31">
+                  </a> <!-- contacts_TC31 -->
+                  <span class="method-name">contacts_TC31</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="contacts_TC32">
+                  </a> <!-- contacts_TC32 -->
+                  <span class="method-name">contacts_TC32</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-mysuiteTesting-class-passed -->
+          <div class="suite-mysuiteTesting-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.salesforce.automation.AutomationScripts_Opty</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createNewOpty_TC16">
+                  </a> <!-- createNewOpty_TC16 -->
+                  <span class="method-name">createNewOpty_TC16</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="optyDropDown_TC15">
+                  </a> <!-- optyDropDown_TC15 -->
+                  <span class="method-name">optyDropDown_TC15</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="optyPipelineReport_TC17">
+                  </a> <!-- optyPipelineReport_TC17 -->
+                  <span class="method-name">optyPipelineReport_TC17</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="qtrlySummRprt_TC19">
+                  </a> <!-- qtrlySummRprt_TC19 -->
+                  <span class="method-name">qtrlySummRprt_TC19</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectDateDynmc">
+                  </a> <!-- selectDateDynmc -->
+                  <span class="method-name">selectDateDynmc</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="stuckOptyReport_TC18">
+                  </a> <!-- stuckOptyReport_TC18 -->
+                  <span class="method-name">stuckOptyReport_TC18</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-mysuiteTesting-class-passed -->
+          <div class="suite-mysuiteTesting-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.salesforce.automation.AutomationScripts_Accnts</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC10b_CreateAccount">
+                  </a> <!-- TC10b_CreateAccount -->
+                  <span class="method-name">TC10b_CreateAccount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC11_Createnewview">
+                  </a> <!-- TC11_Createnewview -->
+                  <span class="method-name">TC11_Createnewview</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC12_Editview">
+                  </a> <!-- TC12_Editview -->
+                  <span class="method-name">TC12_Editview</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-mysuiteTesting-class-passed -->
+        </div> <!-- panel mysuiteTesting -->
+        <div panel-name="test-xml-mysuiteTesting" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\gnage\eclipse-workspace\SeleniumAutomation\testng2.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;mysuiteTesting&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.salesforce.automation.utilities.MyListenerUtility&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TestAccnts&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.salesforce.automation.AutomationScripts_Accnts&quot;&gt;
+        &lt;methods&gt;
+          &lt;exclude name=&quot;TC10a_CreateAccount&quot;/&gt;
+          &lt;exclude name=&quot;TC13_MergeAccounts&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.salesforce.automation.AutomationScripts_Accnts --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestAccnts --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TestContacts&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.salesforce.automation.AutomationScripts_Contacts&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestContacts --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TestLeads&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.salesforce.automation.AutomationScripts_Leads&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestLeads --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TestLogin&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.salesforce.automation.AutomationScripts_LogIn&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestLogin --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TestMenubar&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.salesforce.automation.AutomationScripts_Menubar&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestMenubar --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TestOpty&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.salesforce.automation.AutomationScripts_Opty&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestOpty --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TestRndm&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.salesforce.automation.AutomationScripts_Random&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestRndm --&gt;
+&lt;/suite&gt; &lt;!-- mysuiteTesting --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-mysuiteTesting" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for mysuiteTesting</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">TestAccnts (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TestContacts (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TestLeads (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TestLogin (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TestMenubar (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TestOpty (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TestRndm (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-mysuiteTesting" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for mysuiteTesting</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">regression</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">forgotPassword4b</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">sanity</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">forgotPassword4b</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">smoke</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">loginSalesforce2</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-mysuiteTesting" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for mysuiteTesting</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_mysuiteTesting');
+function tableData_mysuiteTesting() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(36);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'menuDropDown_TC06')
+data.setCell(0, 2, 'com.salesforce.automation.AutomationScripts_Menubar')
+data.setCell(0, 3, 103391);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Random_TC37')
+data.setCell(1, 2, 'com.salesforce.automation.AutomationScripts_Random')
+data.setCell(1, 3, 56200);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'createNewOpty_TC16')
+data.setCell(2, 2, 'com.salesforce.automation.AutomationScripts_Opty')
+data.setCell(2, 3, 50406);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Random_TC35')
+data.setCell(3, 2, 'com.salesforce.automation.AutomationScripts_Random')
+data.setCell(3, 3, 49196);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Random_TC36')
+data.setCell(4, 2, 'com.salesforce.automation.AutomationScripts_Random')
+data.setCell(4, 3, 47999);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'TC22_defaultView')
+data.setCell(5, 2, 'com.salesforce.automation.AutomationScripts_Leads')
+data.setCell(5, 3, 46040);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Random_TC34')
+data.setCell(6, 2, 'com.salesforce.automation.AutomationScripts_Random')
+data.setCell(6, 3, 44075);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'TC10b_CreateAccount')
+data.setCell(7, 2, 'com.salesforce.automation.AutomationScripts_Accnts')
+data.setCell(7, 3, 38947);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'TC24')
+data.setCell(8, 2, 'com.salesforce.automation.AutomationScripts_Leads')
+data.setCell(8, 3, 35977);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'TC12_Editview')
+data.setCell(9, 2, 'com.salesforce.automation.AutomationScripts_Accnts')
+data.setCell(9, 3, 35464);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'selectDateDynmc')
+data.setCell(10, 2, 'com.salesforce.automation.AutomationScripts_Opty')
+data.setCell(10, 3, 32463);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'contacts_TC31')
+data.setCell(11, 2, 'com.salesforce.automation.AutomationScripts_Contacts')
+data.setCell(11, 3, 30749);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'rememberMe3')
+data.setCell(12, 2, 'com.salesforce.automation.AutomationScripts_LogIn')
+data.setCell(12, 3, 30060);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'contacts_TC25')
+data.setCell(13, 2, 'com.salesforce.automation.AutomationScripts_Contacts')
+data.setCell(13, 3, 29350);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'contacts_TC32')
+data.setCell(14, 2, 'com.salesforce.automation.AutomationScripts_Contacts')
+data.setCell(14, 3, 29225);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'TC20_leadsTab')
+data.setCell(15, 2, 'com.salesforce.automation.AutomationScripts_Leads')
+data.setCell(15, 3, 28153);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'contacts_TC26')
+data.setCell(16, 2, 'com.salesforce.automation.AutomationScripts_Contacts')
+data.setCell(16, 3, 27536);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'qtrlySummRprt_TC19')
+data.setCell(17, 2, 'com.salesforce.automation.AutomationScripts_Opty')
+data.setCell(17, 3, 26617);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'menuDropDown_TC05')
+data.setCell(18, 2, 'com.salesforce.automation.AutomationScripts_Menubar')
+data.setCell(18, 3, 26595);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'TC21_leadsSelectView')
+data.setCell(19, 2, 'com.salesforce.automation.AutomationScripts_Leads')
+data.setCell(19, 3, 26316);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'TC11_Createnewview')
+data.setCell(20, 2, 'com.salesforce.automation.AutomationScripts_Accnts')
+data.setCell(20, 3, 26184);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'TC23')
+data.setCell(21, 2, 'com.salesforce.automation.AutomationScripts_Leads')
+data.setCell(21, 3, 25958);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'forgotPassword4a')
+data.setCell(22, 2, 'com.salesforce.automation.AutomationScripts_LogIn')
+data.setCell(22, 3, 25830);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'contacts_TC30')
+data.setCell(23, 2, 'com.salesforce.automation.AutomationScripts_Contacts')
+data.setCell(23, 3, 25806);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'stuckOptyReport_TC18')
+data.setCell(24, 2, 'com.salesforce.automation.AutomationScripts_Opty')
+data.setCell(24, 3, 25274);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'Random_TC33')
+data.setCell(25, 2, 'com.salesforce.automation.AutomationScripts_Random')
+data.setCell(25, 3, 25261);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'menuDropDown_TC08')
+data.setCell(26, 2, 'com.salesforce.automation.AutomationScripts_Menubar')
+data.setCell(26, 3, 23212);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'loginErrorMessage1')
+data.setCell(27, 2, 'com.salesforce.automation.AutomationScripts_LogIn')
+data.setCell(27, 3, 22250);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'forgotPassword4b')
+data.setCell(28, 2, 'com.salesforce.automation.AutomationScripts_LogIn')
+data.setCell(28, 3, 22211);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'optyPipelineReport_TC17')
+data.setCell(29, 2, 'com.salesforce.automation.AutomationScripts_Opty')
+data.setCell(29, 3, 20783);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'optyDropDown_TC15')
+data.setCell(30, 2, 'com.salesforce.automation.AutomationScripts_Opty')
+data.setCell(30, 3, 20546);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'contacts_TC29')
+data.setCell(31, 2, 'com.salesforce.automation.AutomationScripts_Contacts')
+data.setCell(31, 3, 20326);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'menuDropDown_TC09')
+data.setCell(32, 2, 'com.salesforce.automation.AutomationScripts_Menubar')
+data.setCell(32, 3, 17858);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'contacts_TC27')
+data.setCell(33, 2, 'com.salesforce.automation.AutomationScripts_Contacts')
+data.setCell(33, 3, 17629);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'contacts_TC28')
+data.setCell(34, 2, 'com.salesforce.automation.AutomationScripts_Contacts')
+data.setCell(34, 3, 17238);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'loginSalesforce2')
+data.setCell(35, 2, 'com.salesforce.automation.AutomationScripts_LogIn')
+data.setCell(35, 3, 11677);
+window.suiteTableData['mysuiteTesting']= { tableData: data, tableDiv: 'times-div-mysuiteTesting'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 19 minutes</span>
+              <div id="times-div-mysuiteTesting">
+              </div> <!-- times-div-mysuiteTesting -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-mysuiteTesting" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for mysuiteTesting</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-mysuiteTesting" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">4 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.salesforce.automation.AutomationScripts_Menubar</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">menuDropDown_TC07</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.salesforce.automation.AutomationScripts_Accnts</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">TC14_accntReport</span>
+                <br/>
+                <span class="ignored-method-name">TC10a_CreateAccount</span>
+                <br/>
+                <span class="ignored-method-name">TC13_MergeAccounts</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-mysuiteTesting" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.salesforce.automation.AutomationScripts_Random</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setUpSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.salesforce.automation.AutomationScripts_Accnts</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUpTest</span>
+                <span class="method-start">400 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass</span>
+                <span class="method-start">429 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">TC10b_CreateAccount</span>
+                <span class="method-start">449 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC11_Createnewview</span>
+                <span class="method-start">39403 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC12_Editview</span>
+                <span class="method-start">65590 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">101057 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDownTest</span>
+                <span class="method-start">101059 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.salesforce.automation.AutomationScripts_Contacts</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUpTest</span>
+                <span class="method-start">101758 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass</span>
+                <span class="method-start">101765 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">contacts_TC25</span>
+                <span class="method-start">101769 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">contacts_TC26</span>
+                <span class="method-start">131126 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">contacts_TC27</span>
+                <span class="method-start">158664 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">contacts_TC28</span>
+                <span class="method-start">176295 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">contacts_TC29</span>
+                <span class="method-start">193539 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">contacts_TC30</span>
+                <span class="method-start">213870 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">contacts_TC31</span>
+                <span class="method-start">239676 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">contacts_TC32</span>
+                <span class="method-start">270428 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">299653 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDownTest</span>
+                <span class="method-start">299653 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.salesforce.automation.AutomationScripts_Leads</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUpTest</span>
+                <span class="method-start">299825 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass</span>
+                <span class="method-start">299829 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">TC20_leadsTab</span>
+                <span class="method-start">299829 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC21_leadsSelectView</span>
+                <span class="method-start">327982 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC22_defaultView</span>
+                <span class="method-start">354298 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC23</span>
+                <span class="method-start">400351 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC24</span>
+                <span class="method-start">426309 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDownTest</span>
+                <span class="method-start">462292 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">462292 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.salesforce.automation.AutomationScripts_LogIn</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass</span>
+                <span class="method-start">462434 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-test before">
+                <span class="method-name">setUpTest</span>
+                <span class="method-start">462434 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpMethod</span>
+                <span class="method-start">462438 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">forgotPassword4a</span>
+                <span class="method-start">462441 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownMethod</span>
+                <span class="method-start">488273 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpMethod</span>
+                <span class="method-start">488277 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">forgotPassword4b</span>
+                <span class="method-start">488277 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownMethod</span>
+                <span class="method-start">510488 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpMethod</span>
+                <span class="method-start">510505 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginErrorMessage1(chrome)</span>
+                <span class="method-start">510510 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">loginSalesforce2</span>
+                <span class="method-start">532760 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownMethod</span>
+                <span class="method-start">532760 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpMethod</span>
+                <span class="method-start">532760 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownMethod</span>
+                <span class="method-start">544824 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpMethod</span>
+                <span class="method-start">544826 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">rememberMe3</span>
+                <span class="method-start">544826 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">574902 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownMethod</span>
+                <span class="method-start">574902 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDownTest</span>
+                <span class="method-start">574902 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.salesforce.automation.AutomationScripts_Menubar</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass</span>
+                <span class="method-start">575053 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-test before">
+                <span class="method-name">setUpTest</span>
+                <span class="method-start">575053 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">menuDropDown_TC05</span>
+                <span class="method-start">575061 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">menuDropDown_TC06</span>
+                <span class="method-start">601667 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">menuDropDown_TC08</span>
+                <span class="method-start">705061 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">menuDropDown_TC09</span>
+                <span class="method-start">728273 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDownTest</span>
+                <span class="method-start">746131 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">746131 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.salesforce.automation.AutomationScripts_Opty</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">createNewOpty_TC16</span>
+                <span class="method-start">746260 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test before">
+                <span class="method-name">setUpTest</span>
+                <span class="method-start">746260 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass</span>
+                <span class="method-start">746260 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">optyDropDown_TC15</span>
+                <span class="method-start">796672 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">optyPipelineReport_TC17</span>
+                <span class="method-start">817222 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">qtrlySummRprt_TC19</span>
+                <span class="method-start">838016 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">selectDateDynmc</span>
+                <span class="method-start">864633 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">stuckOptyReport_TC18</span>
+                <span class="method-start">897098 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">922373 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDownTest</span>
+                <span class="method-start">922374 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.salesforce.automation.AutomationScripts_Random</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUpTest</span>
+                <span class="method-start">922443 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass</span>
+                <span class="method-start">922444 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">Random_TC33</span>
+                <span class="method-start">922445 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Random_TC34</span>
+                <span class="method-start">947708 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Random_TC35</span>
+                <span class="method-start">991784 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Random_TC36</span>
+                <span class="method-start">1040980 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Random_TC37</span>
+                <span class="method-start">1088980 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">1145196 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDownTest</span>
+                <span class="method-start">1145196 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDownSuite</span>
+                <span class="method-start">1145307 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

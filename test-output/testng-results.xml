@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="40" passed="35" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-19T19:48:15 PST" name="mysuiteTesting" finished-at="2024-02-19T20:07:20 PST" duration-ms="1145162">
+    <groups>
+      <group name="regression">
+        <method signature="AutomationScripts_LogIn.forgotPassword4b()[pri:0, instance:com.salesforce.automation.AutomationScripts_LogIn@6bea52d4]" name="forgotPassword4b" class="com.salesforce.automation.AutomationScripts_LogIn"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="AutomationScripts_LogIn.loginSalesforce2()[pri:0, instance:com.salesforce.automation.AutomationScripts_LogIn@6bea52d4]" name="loginSalesforce2" class="com.salesforce.automation.AutomationScripts_LogIn"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="AutomationScripts_LogIn.forgotPassword4b()[pri:0, instance:com.salesforce.automation.AutomationScripts_LogIn@6bea52d4]" name="forgotPassword4b" class="com.salesforce.automation.AutomationScripts_LogIn"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2024-02-19T19:48:15 PST" name="TestAccnts" finished-at="2024-02-19T19:49:56 PST" duration-ms="101023">
+      <class name="com.salesforce.automation.AutomationScripts_Accnts">
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:com.salesforce.automation.AutomationScripts_Accnts@2f05be7f]" started-at="2024-02-19T19:48:15 PST" name="setUpTest" finished-at="2024-02-19T19:48:15 PST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.salesforce.automation.AutomationScripts_Accnts@2f05be7f]" started-at="2024-02-19T19:48:15 PST" name="setUpClass" finished-at="2024-02-19T19:48:15 PST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="TC10b_CreateAccount()[pri:0, instance:com.salesforce.automation.AutomationScripts_Accnts@2f05be7f]" started-at="2024-02-19T19:48:15 PST" name="TC10b_CreateAccount" finished-at="2024-02-19T19:48:54 PST" duration-ms="38947" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC10b_CreateAccount -->
+        <test-method signature="TC11_Createnewview()[pri:0, instance:com.salesforce.automation.AutomationScripts_Accnts@2f05be7f]" started-at="2024-02-19T19:48:54 PST" name="TC11_Createnewview" finished-at="2024-02-19T19:49:20 PST" duration-ms="26184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC11_Createnewview -->
+        <test-method signature="TC12_Editview()[pri:0, instance:com.salesforce.automation.AutomationScripts_Accnts@2f05be7f]" started-at="2024-02-19T19:49:20 PST" name="TC12_Editview" finished-at="2024-02-19T19:49:56 PST" duration-ms="35464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC12_Editview -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.salesforce.automation.AutomationScripts_Accnts@2f05be7f]" started-at="2024-02-19T19:49:56 PST" name="tearDownClass" finished-at="2024-02-19T19:49:56 PST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:com.salesforce.automation.AutomationScripts_Accnts@2f05be7f]" started-at="2024-02-19T19:49:56 PST" name="tearDownTest" finished-at="2024-02-19T19:49:56 PST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+      </class> <!-- com.salesforce.automation.AutomationScripts_Accnts -->
+    </test> <!-- TestAccnts -->
+    <test started-at="2024-02-19T19:49:56 PST" name="TestContacts" finished-at="2024-02-19T19:53:14 PST" duration-ms="197895">
+      <class name="com.salesforce.automation.AutomationScripts_Contacts">
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:com.salesforce.automation.AutomationScripts_Contacts@5c18016b]" started-at="2024-02-19T19:49:56 PST" name="setUpTest" finished-at="2024-02-19T19:49:56 PST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.salesforce.automation.AutomationScripts_Contacts@5c18016b]" started-at="2024-02-19T19:49:56 PST" name="setUpClass" finished-at="2024-02-19T19:49:56 PST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="contacts_TC25()[pri:0, instance:com.salesforce.automation.AutomationScripts_Contacts@5c18016b]" started-at="2024-02-19T19:49:56 PST" name="contacts_TC25" finished-at="2024-02-19T19:50:26 PST" duration-ms="29350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contacts_TC25 -->
+        <test-method signature="contacts_TC26()[pri:0, instance:com.salesforce.automation.AutomationScripts_Contacts@5c18016b]" started-at="2024-02-19T19:50:26 PST" name="contacts_TC26" finished-at="2024-02-19T19:50:53 PST" duration-ms="27536" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contacts_TC26 -->
+        <test-method signature="contacts_TC27()[pri:0, instance:com.salesforce.automation.AutomationScripts_Contacts@5c18016b]" started-at="2024-02-19T19:50:53 PST" name="contacts_TC27" finished-at="2024-02-19T19:51:11 PST" duration-ms="17629" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contacts_TC27 -->
+        <test-method signature="contacts_TC28()[pri:0, instance:com.salesforce.automation.AutomationScripts_Contacts@5c18016b]" started-at="2024-02-19T19:51:11 PST" name="contacts_TC28" finished-at="2024-02-19T19:51:28 PST" duration-ms="17238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contacts_TC28 -->
+        <test-method signature="contacts_TC29()[pri:0, instance:com.salesforce.automation.AutomationScripts_Contacts@5c18016b]" started-at="2024-02-19T19:51:28 PST" name="contacts_TC29" finished-at="2024-02-19T19:51:48 PST" duration-ms="20326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contacts_TC29 -->
+        <test-method signature="contacts_TC30()[pri:0, instance:com.salesforce.automation.AutomationScripts_Contacts@5c18016b]" started-at="2024-02-19T19:51:48 PST" name="contacts_TC30" finished-at="2024-02-19T19:52:14 PST" duration-ms="25806" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contacts_TC30 -->
+        <test-method signature="contacts_TC31()[pri:0, instance:com.salesforce.automation.AutomationScripts_Contacts@5c18016b]" started-at="2024-02-19T19:52:14 PST" name="contacts_TC31" finished-at="2024-02-19T19:52:45 PST" duration-ms="30749" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contacts_TC31 -->
+        <test-method signature="contacts_TC32()[pri:0, instance:com.salesforce.automation.AutomationScripts_Contacts@5c18016b]" started-at="2024-02-19T19:52:45 PST" name="contacts_TC32" finished-at="2024-02-19T19:53:14 PST" duration-ms="29225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contacts_TC32 -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.salesforce.automation.AutomationScripts_Contacts@5c18016b]" started-at="2024-02-19T19:53:14 PST" name="tearDownClass" finished-at="2024-02-19T19:53:14 PST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:com.salesforce.automation.AutomationScripts_Contacts@5c18016b]" started-at="2024-02-19T19:53:14 PST" name="tearDownTest" finished-at="2024-02-19T19:53:14 PST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+      </class> <!-- com.salesforce.automation.AutomationScripts_Contacts -->
+    </test> <!-- TestContacts -->
+    <test started-at="2024-02-19T19:53:14 PST" name="TestLeads" finished-at="2024-02-19T19:55:57 PST" duration-ms="162470">
+      <class name="com.salesforce.automation.AutomationScripts_Leads">
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:com.salesforce.automation.AutomationScripts_Leads@31e4bb20]" started-at="2024-02-19T19:53:14 PST" name="setUpTest" finished-at="2024-02-19T19:53:14 PST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method signature="TC20_leadsTab()[pri:0, instance:com.salesforce.automation.AutomationScripts_Leads@31e4bb20]" started-at="2024-02-19T19:53:14 PST" name="TC20_leadsTab" finished-at="2024-02-19T19:53:43 PST" duration-ms="28153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC20_leadsTab -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.salesforce.automation.AutomationScripts_Leads@31e4bb20]" started-at="2024-02-19T19:53:14 PST" name="setUpClass" finished-at="2024-02-19T19:53:14 PST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="TC21_leadsSelectView()[pri:0, instance:com.salesforce.automation.AutomationScripts_Leads@31e4bb20]" started-at="2024-02-19T19:53:43 PST" name="TC21_leadsSelectView" finished-at="2024-02-19T19:54:09 PST" duration-ms="26316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC21_leadsSelectView -->
+        <test-method signature="TC22_defaultView()[pri:0, instance:com.salesforce.automation.AutomationScripts_Leads@31e4bb20]" started-at="2024-02-19T19:54:09 PST" name="TC22_defaultView" finished-at="2024-02-19T19:54:55 PST" duration-ms="46040" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC22_defaultView -->
+        <test-method signature="TC23()[pri:0, instance:com.salesforce.automation.AutomationScripts_Leads@31e4bb20]" started-at="2024-02-19T19:54:55 PST" name="TC23" finished-at="2024-02-19T19:55:21 PST" duration-ms="25958" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC23 -->
+        <test-method signature="TC24()[pri:0, instance:com.salesforce.automation.AutomationScripts_Leads@31e4bb20]" started-at="2024-02-19T19:55:21 PST" name="TC24" finished-at="2024-02-19T19:55:57 PST" duration-ms="35977" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC24 -->
+        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:com.salesforce.automation.AutomationScripts_Leads@31e4bb20]" started-at="2024-02-19T19:55:57 PST" name="tearDownTest" finished-at="2024-02-19T19:55:57 PST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.salesforce.automation.AutomationScripts_Leads@31e4bb20]" started-at="2024-02-19T19:55:57 PST" name="tearDownClass" finished-at="2024-02-19T19:55:57 PST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.salesforce.automation.AutomationScripts_Leads -->
+    </test> <!-- TestLeads -->
+    <test started-at="2024-02-19T19:55:57 PST" name="TestLogin" finished-at="2024-02-19T19:57:49 PST" duration-ms="112469">
+      <class name="com.salesforce.automation.AutomationScripts_LogIn">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.salesforce.automation.AutomationScripts_LogIn@6bea52d4]" started-at="2024-02-19T19:55:57 PST" name="setUpClass" finished-at="2024-02-19T19:55:57 PST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:com.salesforce.automation.AutomationScripts_LogIn@6bea52d4]" started-at="2024-02-19T19:55:57 PST" name="setUpTest" finished-at="2024-02-19T19:55:57 PST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:com.salesforce.automation.AutomationScripts_LogIn@6bea52d4]" started-at="2024-02-19T19:55:57 PST" name="setUpMethod" finished-at="2024-02-19T19:55:57 PST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="forgotPassword4a()[pri:0, instance:com.salesforce.automation.AutomationScripts_LogIn@6bea52d4]" started-at="2024-02-19T19:55:57 PST" name="forgotPassword4a" finished-at="2024-02-19T19:56:23 PST" duration-ms="25830" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPassword4a -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:com.salesforce.automation.AutomationScripts_LogIn@6bea52d4]" started-at="2024-02-19T19:56:23 PST" name="tearDownMethod" finished-at="2024-02-19T19:56:23 PST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method signature="forgotPassword4b()[pri:0, instance:com.salesforce.automation.AutomationScripts_LogIn@6bea52d4]" started-at="2024-02-19T19:56:23 PST" name="forgotPassword4b" finished-at="2024-02-19T19:56:45 PST" duration-ms="22211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPassword4b -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:com.salesforce.automation.AutomationScripts_LogIn@6bea52d4]" started-at="2024-02-19T19:56:23 PST" name="setUpMethod" finished-at="2024-02-19T19:56:23 PST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:com.salesforce.automation.AutomationScripts_LogIn@6bea52d4]" started-at="2024-02-19T19:56:45 PST" name="tearDownMethod" finished-at="2024-02-19T19:56:45 PST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:com.salesforce.automation.AutomationScripts_LogIn@6bea52d4]" started-at="2024-02-19T19:56:45 PST" name="setUpMethod" finished-at="2024-02-19T19:56:45 PST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="loginErrorMessage1(java.lang.String)[pri:0, instance:com.salesforce.automation.AutomationScripts_LogIn@6bea52d4]" started-at="2024-02-19T19:56:45 PST" name="loginErrorMessage1" finished-at="2024-02-19T19:57:07 PST" duration-ms="22250" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginErrorMessage1 -->
+        <test-method signature="loginSalesforce2()[pri:0, instance:com.salesforce.automation.AutomationScripts_LogIn@6bea52d4]" started-at="2024-02-19T19:57:07 PST" name="loginSalesforce2" finished-at="2024-02-19T19:57:19 PST" duration-ms="11677" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#userNavLabel"}
+  (Session info: chrome=121.0.6167.161)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-P90V53U', ip: '192.168.68.100', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.184 (057a8ae7deb..., userDataDir: C:\Users\gnage\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52040}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c50b1d932c9f12700060a571fd4fa31d
+*** Element info: {Using=id, value=userNavLabel}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#userNavLabel"}
+  (Session info: chrome=121.0.6167.161)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-P90V53U', ip: '192.168.68.100', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 121.0.6167.184 (057a8ae7deb..., userDataDir: C:\Users\gnage\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52040}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c50b1d932c9f12700060a571fd4fa31d
+*** Element info: {Using=id, value=userNavLabel}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+at org.openqa.selenium.By$ById.findElement(By.java:188)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at com.salesforce.automation.AutomationScripts_LogIn.loginSalesforce2(AutomationScripts_LogIn.java:88)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSalesforce2 -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:com.salesforce.automation.AutomationScripts_LogIn@6bea52d4]" started-at="2024-02-19T19:57:07 PST" name="tearDownMethod" finished-at="2024-02-19T19:57:07 PST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:com.salesforce.automation.AutomationScripts_LogIn@6bea52d4]" started-at="2024-02-19T19:57:07 PST" name="setUpMethod" finished-at="2024-02-19T19:57:07 PST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:com.salesforce.automation.AutomationScripts_LogIn@6bea52d4]" started-at="2024-02-19T19:57:19 PST" name="tearDownMethod" finished-at="2024-02-19T19:57:19 PST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method signature="rememberMe3()[pri:0, instance:com.salesforce.automation.AutomationScripts_LogIn@6bea52d4]" started-at="2024-02-19T19:57:19 PST" name="rememberMe3" finished-at="2024-02-19T19:57:49 PST" duration-ms="30060" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rememberMe3 -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:com.salesforce.automation.AutomationScripts_LogIn@6bea52d4]" started-at="2024-02-19T19:57:19 PST" name="setUpMethod" finished-at="2024-02-19T19:57:19 PST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.salesforce.automation.AutomationScripts_LogIn@6bea52d4]" started-at="2024-02-19T19:57:49 PST" name="tearDownClass" finished-at="2024-02-19T19:57:49 PST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:com.salesforce.automation.AutomationScripts_LogIn@6bea52d4]" started-at="2024-02-19T19:57:49 PST" name="tearDownMethod" finished-at="2024-02-19T19:57:49 PST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:com.salesforce.automation.AutomationScripts_LogIn@6bea52d4]" started-at="2024-02-19T19:57:49 PST" name="tearDownTest" finished-at="2024-02-19T19:57:49 PST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+      </class> <!-- com.salesforce.automation.AutomationScripts_LogIn -->
+    </test> <!-- TestLogin -->
+    <test started-at="2024-02-19T19:57:50 PST" name="TestMenubar" finished-at="2024-02-19T20:00:41 PST" duration-ms="171078">
+      <class name="com.salesforce.automation.AutomationScripts_Menubar">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.salesforce.automation.AutomationScripts_Menubar@2a2c13a8]" started-at="2024-02-19T19:57:50 PST" name="setUpClass" finished-at="2024-02-19T19:57:50 PST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:com.salesforce.automation.AutomationScripts_Menubar@2a2c13a8]" started-at="2024-02-19T19:57:50 PST" name="setUpTest" finished-at="2024-02-19T19:57:50 PST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method signature="menuDropDown_TC05()[pri:0, instance:com.salesforce.automation.AutomationScripts_Menubar@2a2c13a8]" started-at="2024-02-19T19:57:50 PST" name="menuDropDown_TC05" finished-at="2024-02-19T19:58:16 PST" duration-ms="26595" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- menuDropDown_TC05 -->
+        <test-method signature="menuDropDown_TC06()[pri:0, instance:com.salesforce.automation.AutomationScripts_Menubar@2a2c13a8]" started-at="2024-02-19T19:58:16 PST" name="menuDropDown_TC06" finished-at="2024-02-19T20:00:00 PST" duration-ms="103391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- menuDropDown_TC06 -->
+        <test-method signature="menuDropDown_TC08()[pri:0, instance:com.salesforce.automation.AutomationScripts_Menubar@2a2c13a8]" started-at="2024-02-19T20:00:00 PST" name="menuDropDown_TC08" finished-at="2024-02-19T20:00:23 PST" duration-ms="23212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- menuDropDown_TC08 -->
+        <test-method signature="menuDropDown_TC09()[pri:0, instance:com.salesforce.automation.AutomationScripts_Menubar@2a2c13a8]" started-at="2024-02-19T20:00:23 PST" name="menuDropDown_TC09" finished-at="2024-02-19T20:00:41 PST" duration-ms="17858" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- menuDropDown_TC09 -->
+        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:com.salesforce.automation.AutomationScripts_Menubar@2a2c13a8]" started-at="2024-02-19T20:00:41 PST" name="tearDownTest" finished-at="2024-02-19T20:00:41 PST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.salesforce.automation.AutomationScripts_Menubar@2a2c13a8]" started-at="2024-02-19T20:00:41 PST" name="tearDownClass" finished-at="2024-02-19T20:00:41 PST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.salesforce.automation.AutomationScripts_Menubar -->
+    </test> <!-- TestMenubar -->
+    <test started-at="2024-02-19T20:00:41 PST" name="TestOpty" finished-at="2024-02-19T20:03:37 PST" duration-ms="176115">
+      <class name="com.salesforce.automation.AutomationScripts_Opty">
+        <test-method signature="createNewOpty_TC16()[pri:0, instance:com.salesforce.automation.AutomationScripts_Opty@5bd82fed]" started-at="2024-02-19T20:00:41 PST" name="createNewOpty_TC16" finished-at="2024-02-19T20:01:31 PST" duration-ms="50406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewOpty_TC16 -->
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:com.salesforce.automation.AutomationScripts_Opty@5bd82fed]" started-at="2024-02-19T20:00:41 PST" name="setUpTest" finished-at="2024-02-19T20:00:41 PST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.salesforce.automation.AutomationScripts_Opty@5bd82fed]" started-at="2024-02-19T20:00:41 PST" name="setUpClass" finished-at="2024-02-19T20:00:41 PST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="optyDropDown_TC15()[pri:0, instance:com.salesforce.automation.AutomationScripts_Opty@5bd82fed]" started-at="2024-02-19T20:01:31 PST" name="optyDropDown_TC15" finished-at="2024-02-19T20:01:52 PST" duration-ms="20546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- optyDropDown_TC15 -->
+        <test-method signature="optyPipelineReport_TC17()[pri:0, instance:com.salesforce.automation.AutomationScripts_Opty@5bd82fed]" started-at="2024-02-19T20:01:52 PST" name="optyPipelineReport_TC17" finished-at="2024-02-19T20:02:13 PST" duration-ms="20783" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- optyPipelineReport_TC17 -->
+        <test-method signature="qtrlySummRprt_TC19()[pri:0, instance:com.salesforce.automation.AutomationScripts_Opty@5bd82fed]" started-at="2024-02-19T20:02:13 PST" name="qtrlySummRprt_TC19" finished-at="2024-02-19T20:02:39 PST" duration-ms="26617" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- qtrlySummRprt_TC19 -->
+        <test-method signature="selectDateDynmc()[pri:0, instance:com.salesforce.automation.AutomationScripts_Opty@5bd82fed]" started-at="2024-02-19T20:02:39 PST" name="selectDateDynmc" finished-at="2024-02-19T20:03:12 PST" duration-ms="32463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectDateDynmc -->
+        <test-method signature="stuckOptyReport_TC18()[pri:0, instance:com.salesforce.automation.AutomationScripts_Opty@5bd82fed]" started-at="2024-02-19T20:03:12 PST" name="stuckOptyReport_TC18" finished-at="2024-02-19T20:03:37 PST" duration-ms="25274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stuckOptyReport_TC18 -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.salesforce.automation.AutomationScripts_Opty@5bd82fed]" started-at="2024-02-19T20:03:37 PST" name="tearDownClass" finished-at="2024-02-19T20:03:37 PST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:com.salesforce.automation.AutomationScripts_Opty@5bd82fed]" started-at="2024-02-19T20:03:37 PST" name="tearDownTest" finished-at="2024-02-19T20:03:37 PST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+      </class> <!-- com.salesforce.automation.AutomationScripts_Opty -->
+    </test> <!-- TestOpty -->
+    <test started-at="2024-02-19T20:03:37 PST" name="TestRndm" finished-at="2024-02-19T20:07:20 PST" duration-ms="222758">
+      <class name="com.salesforce.automation.AutomationScripts_Random">
+        <test-method is-config="true" signature="setUpSuite()[pri:0, instance:com.salesforce.automation.AutomationScripts_Random@6da00fb9]" started-at="2024-02-19T19:48:15 PST" name="setUpSuite" finished-at="2024-02-19T19:48:15 PST" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:com.salesforce.automation.AutomationScripts_Random@6da00fb9]" started-at="2024-02-19T20:03:37 PST" name="setUpTest" finished-at="2024-02-19T20:03:37 PST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.salesforce.automation.AutomationScripts_Random@6da00fb9]" started-at="2024-02-19T20:03:37 PST" name="setUpClass" finished-at="2024-02-19T20:03:37 PST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="Random_TC33()[pri:0, instance:com.salesforce.automation.AutomationScripts_Random@6da00fb9]" started-at="2024-02-19T20:03:37 PST" name="Random_TC33" finished-at="2024-02-19T20:04:02 PST" duration-ms="25261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Random_TC33 -->
+        <test-method signature="Random_TC34()[pri:0, instance:com.salesforce.automation.AutomationScripts_Random@6da00fb9]" started-at="2024-02-19T20:04:02 PST" name="Random_TC34" finished-at="2024-02-19T20:04:46 PST" duration-ms="44075" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Random_TC34 -->
+        <test-method signature="Random_TC35()[pri:0, instance:com.salesforce.automation.AutomationScripts_Random@6da00fb9]" started-at="2024-02-19T20:04:46 PST" name="Random_TC35" finished-at="2024-02-19T20:05:36 PST" duration-ms="49196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Random_TC35 -->
+        <test-method signature="Random_TC36()[pri:0, instance:com.salesforce.automation.AutomationScripts_Random@6da00fb9]" started-at="2024-02-19T20:05:36 PST" name="Random_TC36" finished-at="2024-02-19T20:06:24 PST" duration-ms="47999" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Random_TC36 -->
+        <test-method signature="Random_TC37()[pri:0, instance:com.salesforce.automation.AutomationScripts_Random@6da00fb9]" started-at="2024-02-19T20:06:24 PST" name="Random_TC37" finished-at="2024-02-19T20:07:20 PST" duration-ms="56200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Random_TC37 -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.salesforce.automation.AutomationScripts_Random@6da00fb9]" started-at="2024-02-19T20:07:20 PST" name="tearDownClass" finished-at="2024-02-19T20:07:20 PST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:com.salesforce.automation.AutomationScripts_Random@6da00fb9]" started-at="2024-02-19T20:07:20 PST" name="tearDownTest" finished-at="2024-02-19T20:07:20 PST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method is-config="true" signature="tearDownSuite()[pri:0, instance:com.salesforce.automation.AutomationScripts_Random@6da00fb9]" started-at="2024-02-19T20:07:20 PST" name="tearDownSuite" finished-at="2024-02-19T20:07:20 PST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownSuite -->
+      </class> <!-- com.salesforce.automation.AutomationScripts_Random -->
+    </test> <!-- TestRndm -->
+  </suite> <!-- mysuiteTesting -->
+</testng-results>

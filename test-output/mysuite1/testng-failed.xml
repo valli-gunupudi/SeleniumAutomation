@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [mysuite1]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="chrome"/>
+  <listeners>
+    <listener class-name="com.salesforce.automation.utilities.MyListenerUtility"/>
+  </listeners>
+  <test parallel="none" name="TestLogin(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.salesforce.automation.AutomationScripts_Random">
+        <methods>
+          <include name="Random_TC37"/>
+          <include name="tearDownClass"/>
+          <include name="tearDownSuite"/>
+          <include name="setUpSuite"/>
+          <include name="setUpTest"/>
+          <include name="setUpClass"/>
+          <include name="tearDownTest"/>
+        </methods>
+      </class> <!-- com.salesforce.automation.AutomationScripts_Random -->
+    </classes>
+  </test> <!-- TestLogin(failed) -->
+</suite> <!-- Failed suite [mysuite1] -->

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test parallel="none" name="Default test(failed)">
+    <classes>
+      <class name="com.salesforce.automation.AutomationScripts_LogIn">
+        <methods>
+          <include name="loginErrorMessage1"/>
+          <include name="tearDownClass"/>
+          <include name="tearDownSuite"/>
+          <include name="setUpSuite"/>
+          <include name="setUpMethod"/>
+          <include name="setUpTest"/>
+          <include name="setUpClass"/>
+          <include name="tearDownMethod"/>
+          <include name="tearDownTest"/>
+        </methods>
+      </class> <!-- com.salesforce.automation.AutomationScripts_LogIn -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
